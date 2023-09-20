@@ -1,9 +1,9 @@
-
+import AppBanner from "../appBanner/appBanner"
 
 const App = () => {
     return (
         <div className="app">
-            <p>Marvel</p>  
+            <AppBanner />
         </div>
     )
 }
